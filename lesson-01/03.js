@@ -5,4 +5,20 @@
 */
 
 // your code
-let sum
+
+let sum = 0;
+//assign a variable for the result
+let x = 1;
+//assign a variable for the number in the targeted row
+while (x <= 20) {
+  //set up a "while" loop
+  if (x % 2 === 1) {
+    //if a number cannot be divided by 2 without a remainder
+    sum = sum + x;
+    //it should be added to the sum
+  }
+  x = x + 1;
+  //after adding the odd number I'm going to the next number in the row
+}
+console.log(sum);
+//show the result in console
