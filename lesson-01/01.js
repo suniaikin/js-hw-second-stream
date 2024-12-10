@@ -2,5 +2,11 @@
 // Результат присвойте переменной sum
 
 // your code
-let sum = 1;
-while (sum <= 20);
+let sum = 0; // задаем переменную для искомой суммы чисел
+let x = 1; // первое число
+
+while (sum <= 20) {
+  x++;
+  sum + x;
+}
+console.log(sum);
