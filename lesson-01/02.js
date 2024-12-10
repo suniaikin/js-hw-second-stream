@@ -6,4 +6,14 @@
 */
 
 // your code
-let factorial
+// assign a variable to the target
+let factorial = 1;
+// assign a variable to a digit in the row
+let n = 1;
+// set the loop condition: works when n is less or equal 10
+while (n <= 10) {
+  factorial = factorial * n;
+  n = n + 1;
+}
+
+console.log(factorial);
