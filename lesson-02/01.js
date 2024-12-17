@@ -31,3 +31,5 @@ if (isAccess) {
 } else {
   alert(false);
 }
+
+console.log(isAccess);
