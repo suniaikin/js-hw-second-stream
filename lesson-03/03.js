@@ -18,6 +18,7 @@ function findLargest(num1, num2, num3){
         return "Не определено"
     }
 }
+
 console.log(`Три выбранные числа: ${num1}, ${num2}, ${num3}`);
 console.log("Наибольшее число: " + findLargest(num1, num2, num3));
 
