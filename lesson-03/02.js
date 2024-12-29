@@ -3,13 +3,8 @@
 
 //num is a random number
 function isEven(num) {
-	if (num % 2 === 0) {
-		console.log(true);
-	} else {
-		console.log(false);
-	}
-	return num
+	return (num % 2 === 0)
 }
 
-console.log(isEven(6));
+console.log(isEven(2));
 
