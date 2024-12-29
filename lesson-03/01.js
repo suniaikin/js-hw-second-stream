@@ -5,4 +5,5 @@ function calculateAverage(num1, num2) {
 	return average;
 }
 
-console.log(calculateAverage(4, 6));
+console.log(calculateAverage(4, 8));
+
