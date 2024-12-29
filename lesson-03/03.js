@@ -5,9 +5,6 @@ let num1 = Math.random() * 4;
 let num2 = Math.random() * 4;
 let num3 = Math.random() * 4;
 
-// Задаем переменную для наибольшего числа
-let theLargest
-
 function findLargest(num1, num2, num3){
     if (num1 > num2 && num1 > num3) {
         return num1;
