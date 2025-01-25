@@ -24,5 +24,4 @@ function includesElement(arr, element) {
 }
 
 const result2 = includesElement(array04, 177);
-
 console.log(result2);
