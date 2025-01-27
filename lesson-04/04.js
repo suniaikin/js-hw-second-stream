@@ -12,11 +12,12 @@
 Пример работы функции: `doubleEachCharacter('hello')` вернёт `'hheelllloo'`
 */
 
-function doubleEachCharacter(str) {
-    let result = "";
-    for (let i = 0; i < str.length; i++) {
-        result += str[i] + str[i];
-    } return result;
-}
+function doubleEachCharacter(stroke) {
+    let doubleStrokeArray = []
+    let strokeToArray = stroke.split("")
+        for (let i = 0; i < strokeToArray.length; i++) {
+        doubleStrokeArray.push(strokeToArray[i] + strokeToArray[i])
+        } return doubleStrokeArray.join("")
 
-console.log(doubleEachCharacter("345"));
+}
+console.log(doubleEachCharacter("hello world"));
