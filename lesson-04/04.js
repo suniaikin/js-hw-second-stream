@@ -12,8 +12,6 @@
 Пример работы функции: `doubleEachCharacter('hello')` вернёт `'hheelllloo'`
 */
 
-const stroke2 = "hello"
-
 function doubleEachCharacter(stroke) {
     let doubleStrokeArray = []
     let strokeToArray = stroke.split("")
