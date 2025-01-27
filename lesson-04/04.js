@@ -15,7 +15,8 @@
 function doubleEachCharacter(str) {
     let result = "";
     for (let i = 0; i < str.length; i++) {
-        // Добавляем символ дважды к результату
         result += str[i] + str[i];
     } return result;
 }
+
+console.log(doubleEachCharacter("345"));
