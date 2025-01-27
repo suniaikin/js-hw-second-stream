@@ -12,12 +12,10 @@
 Пример работы функции: `doubleEachCharacter('hello')` вернёт `'hheelllloo'`
 */
 
-function doubleEachCharacter(stroke) {
-    let doubleStrokeArray = []
-    let strokeToArray = stroke.split("")
-        for (let i = 0; i < strokeToArray.length; i++) {
-        doubleStrokeArray.push(strokeToArray[i] + strokeToArray[i])
-        } return doubleStrokeArray.join("")с
-
+function doubleEachCharacter(str) {
+    let result = "";
+    for (let i = 0; i < str.length; i++) {
+        // Добавляем символ дважды к результату
+        result += str[i] + str[i];
+    } return result;
 }
-console.log(doubleEachCharacter(stroke2))
