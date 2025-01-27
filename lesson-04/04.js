@@ -17,7 +17,7 @@ function doubleEachCharacter(stroke) {
     let strokeToArray = stroke.split("")
         for (let i = 0; i < strokeToArray.length; i++) {
         doubleStrokeArray.push(strokeToArray[i] + strokeToArray[i])
-        } return doubleStrokeArray.join("")
+        } return doubleStrokeArray.join("")с
 
 }
 console.log(doubleEachCharacter(stroke2))
