@@ -1,4 +1,5 @@
 /*
+
 Напишите функцию `updateGallery`, которая будет обновлять информацию о произведениях искусства в виртуальной галерее. Функция должна принимать три параметра:
 
 - объект галереи
@@ -33,6 +34,7 @@ const gallery = {
   'Mona Lisa': 'Leonardo da Vinci',
   'Starry Night': 'Vincent van Gogh',
   'The Scream': 'Edvard Munch',
+  
 }
 
 function updateGallery() {}
