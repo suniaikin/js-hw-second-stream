@@ -37,4 +37,4 @@ const gallery = {
   
 }
 
-function updateGallery() {}
+function updateGallery(gallery) {}
