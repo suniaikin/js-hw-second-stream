@@ -42,5 +42,5 @@ nextButton.addEventListener('click', () => {
   updateImage();
 });
 
-// Устанавливаем начальное изображение
+// Начальное изображение
 updateImage();
