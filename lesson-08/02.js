@@ -47,7 +47,6 @@ startButton.addEventListener('click', () => {
     }
   }, 1000);
 
-
 })
 
 cancelButton.addEventListener('click', () => {
